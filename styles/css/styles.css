@@ -48,3 +48,9 @@ header > img {
 .nav > a:last-child {
     border-right: none;
 }
+
+.page-title{
+
+    text-align: center;
+    padding-top: 2em;
+}
