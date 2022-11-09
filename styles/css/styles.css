@@ -52,5 +52,64 @@ header > img {
 .page-title{
 
     text-align: center;
-    padding-top: 2em;
+    padding-top: 10em;
+   
+}
+
+
+
+
+
+#about1 {
+
+padding: 5em;
+}
+
+
+.left-container{
+    padding: 5em;
+    height : 300px
+}
+
+.person-left{
+
+    float:left;
+    height: 300px;
+    width: 250px;
+    margin-right: 3em;
+}
+
+
+.desc-left{
+
+    float: right;
+    padding-right: 5em;
+
+}
+
+
+.right-container{
+    padding: 5em;
+    height : 300px
+}
+
+
+
+
+
+
+
+.person-right{
+
+    float: right;
+    height: 300px;
+    width: 250px;
+    margin-left: 3em;
+}
+
+.desc-right{
+
+    float: left;
+    padding-left: 5em;
+
 }
