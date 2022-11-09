@@ -67,7 +67,7 @@ footer {
 }
 
 #about1 {
-    padding: 5em;
+    padding: 3em;
 }
 
 .left-container{
@@ -105,3 +105,25 @@ footer {
 }
 
 
+
+
+
+
+.work-container{
+    padding: 5em;
+    height : 300px
+}
+
+.work-left{
+    float:left;
+    height: 300px;
+    width: auto;
+    margin-right: 3em;
+}
+
+.work-desc{
+    float: lefts;
+
+    padding-left: 25em;
+    padding-right: 5em;
+}
