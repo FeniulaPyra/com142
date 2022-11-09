@@ -64,6 +64,26 @@ footer {
     width: 50vw;
     padding: 1rem;
     padding-right: 0;
+    border-top: black;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container img {
+    height: 100px;
+    float: right;
+}
+
+.container img {
+    display: inline-block;
 }
 
 #about1 {
