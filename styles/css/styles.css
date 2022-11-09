@@ -53,13 +53,10 @@ nav > a:last-child {
     border-right: none;
 }
 
-.page-title{
-    
+.page-title{  
     text-align: center;
     padding-top: 3em;
-   
 }
-
 
 footer {
     position: relative;
@@ -90,10 +87,8 @@ footer {
 }
 
 #about1 {
-
-padding: 5em;
+    padding: 5em;
 }
-
 
 .left-container{
     padding: 5em;
@@ -101,35 +96,23 @@ padding: 5em;
 }
 
 .person-left{
-
     float:left;
     height: 300px;
     width: 250px;
     margin-right: 3em;
 }
 
-
 .desc-left{
-
     float: right;
     padding-right: 5em;
-
 }
-
 
 .right-container{
     padding: 5em;
     height : 300px
 }
 
-
-
-
-
-
-
 .person-right{
-
     float: right;
     height: 300px;
     width: 250px;
@@ -137,8 +120,8 @@ padding: 5em;
 }
 
 .desc-right{
-
     float: left;
     padding-left: 5em;
-
 }
+
+
