@@ -53,13 +53,10 @@ nav > a:last-child {
     border-right: none;
 }
 
-.page-title{
-    
+.page-title{  
     text-align: center;
     padding-top: 3em;
-   
 }
-
 
 footer {
     position: relative;
@@ -67,15 +64,31 @@ footer {
     width: 50vw;
     padding: 1rem;
     padding-right: 0;
+    border-top: black;
 }
 
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.container img {
+    height: 100px;
+    float: right;
+}
+
+.container img {
+    display: inline-block;
+}
 
 #about1 {
-
-padding: 5em;
+    padding: 3em;
 }
-
 
 .left-container{
     padding: 5em;
@@ -83,21 +96,16 @@ padding: 5em;
 }
 
 .person-left{
-
     float:left;
     height: 300px;
     width: 250px;
     margin-right: 3em;
 }
 
-
 .desc-left{
-
     float: right;
     padding-right: 5em;
-
 }
-
 
 .right-container{
     padding: 5em;
@@ -105,7 +113,6 @@ padding: 5em;
 }
 
 .person-right{
-
     float: right;
     height: 300px;
     width: 250px;
@@ -113,10 +120,27 @@ padding: 5em;
 }
 
 .desc-right{
-
     float: left;
     padding-left: 5em;
+}
 
+.work-container{
+    padding: 5em;
+    height : 300px
+}
+
+.work-left{
+    float:left;
+    height: 300px;
+    width: auto;
+    margin-right: 3em;
+}
+
+.work-desc{
+    float: lefts;
+
+    padding-left: 25em;
+    padding-right: 5em;
 }
 
 
