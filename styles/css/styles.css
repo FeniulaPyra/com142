@@ -154,7 +154,11 @@ footer {
     padding-right: 5em;
 }
 
-
 h2 {
     text-align: center;
+}
+
+.article_page p img {
+    float: right;
+    padding-left: 30px;
 }
