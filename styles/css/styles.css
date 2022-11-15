@@ -192,3 +192,10 @@ footer {
 h2 {
     text-align: center;
 }
+
+.work-left-long {
+    float:left;
+    width: 300px;
+    height: auto;
+    margin-right: 3em;
+}
