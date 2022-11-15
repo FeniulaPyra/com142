@@ -124,4 +124,7 @@ footer {
     padding-left: 5em;
 }
 
-
+.article_page .float_right {
+    float: right;
+    padding-left: 30px;
+}
