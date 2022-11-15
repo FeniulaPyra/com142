@@ -129,6 +129,16 @@ footer {
     height : 300px
 }
 
+.work-title{
+	padding: 0em;
+	height: 400px;
+}
+
+.title{
+	height: 500px;
+	width: 2000px;
+}
+
 .work-left{
     float:left;
     height: 300px;
