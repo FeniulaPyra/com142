@@ -71,9 +71,15 @@ nav > a:last-child {
     left: 0;
     bottom: 0;
     z-index: -1;
-    transform: scaleX(3.5) scaleY(0.25) translateX(200px) translateY(-765px);
-    -webkit-transform: scaleX(3.5) scaleY(0.25) translateX(200px) translateY(-765px);
+    transform: scaleX(3.215) scaleY(0.25) translateX(204px) translateY(-765px);
+    -webkit-transform: scaleX(3.215) scaleY(0.25) translateX(204px) translateY(-765px);
 	opacity: 85%;
+}
+
+.h-title {
+	text-align: center;
+	transform: translateY(-30px);
+	-webkit-transform: translateY(-30px);
 }
 
 .page-title{  
