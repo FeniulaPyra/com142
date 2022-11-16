@@ -9,7 +9,9 @@
     <style>
         .banner {
             width: 100%;
-            background-image: url(images/Balloon_Ritchies.jpg);
+            background-image: url(images/banner-bg.jpg);
+            background-size: cover;
+            background-position: center;
             padding-top: 10rem;
             padding-bottom: 10rem;
         }
@@ -18,10 +20,33 @@
             width: 100%;
             background: rgba(255, 255, 255, .75);
             padding: 3rem;
-            box-shadow: 10px 0px 10px black;
         }
-        footer {
-            position: fixed;
+        .aboutblurb {
+            margin:10rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 2rem;
+        }
+        .aboutblurb h2{
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            text-align: center;
+            padding: 2rem;
+            background: rgba(255, 255, 255, .75);
+        }
+        .aboutblurb #innovation {
+            background: url(images/technology-stock-photo.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .aboutblurb #ethics {
+            background: url(images/nature-stock-image.webp);
+            background-position: center;
+            background-size: cover;
+        }
+        .aboutblurb p {
+            padding: 3rem;
+            text-align: center;
         }
     </style>
 </head>
@@ -37,8 +62,24 @@
     </nav>
     </header>
 	<div class="banner">
-        <h1>Ethitech tagline here!</h1>
+        <h1>Ethics-oriented Innovation</h1>
 	</div>
+    <div class="aboutblurb">
+        <div id="innovation">
+            <h2>Innovation</h2>
+        </div>
+        <p>
+            At Ethitech we strive to provide clean, effective, efficient, and elegant solutions to any problem. Our team has a variety of strong technical backgrounds and can make sure we provide creative innovations for your company.  
+        </p>
+    </div>
+    <div class="aboutblurb">
+        <p>
+            Not only do we excel technically, our technical solutions are ethically based and will keep your company on good terms with your customers and keep your product ethical.
+        </p>
+        <div id="ethics">
+            <h2>Ethics</h2>
+        </div>
+    </div>
 	<footer>
         Copyright © 2022 Ethitech
     </footer>
